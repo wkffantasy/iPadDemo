@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A49AAD91E52A7B0006CC400 /* MyHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A49AAD81E52A7B0006CC400 /* MyHomeController.m */; };
+		9A49AADC1E52A7C4006CC400 /* MyStudyPlanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A49AADB1E52A7C4006CC400 /* MyStudyPlanController.m */; };
+		9A49AADF1E52A7D4006CC400 /* MyLiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A49AADE1E52A7D4006CC400 /* MyLiveController.m */; };
+		9A49AAE21E52A7E7006CC400 /* MyExerciseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A49AAE11E52A7E7006CC400 /* MyExerciseController.m */; };
+		9A49AAE51E52A7F7006CC400 /* MyModelExamController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A49AAE41E52A7F7006CC400 /* MyModelExamController.m */; };
+		9A49AAE81E52A804006CC400 /* MyCheckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A49AAE71E52A804006CC400 /* MyCheckController.m */; };
+		9A49AAEB1E52A81A006CC400 /* MyBrieflyTeachController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A49AAEA1E52A81A006CC400 /* MyBrieflyTeachController.m */; };
 		9A9446B61E519B3700DE0C44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9446B51E519B3700DE0C44 /* main.m */; };
 		9A9446B91E519B3700DE0C44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9446B81E519B3700DE0C44 /* AppDelegate.m */; };
 		9A9446BC1E519B3700DE0C44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9446BB1E519B3700DE0C44 /* ViewController.m */; };
@@ -51,6 +58,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A49AAD71E52A7B0006CC400 /* MyHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHomeController.h; sourceTree = "<group>"; };
+		9A49AAD81E52A7B0006CC400 /* MyHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHomeController.m; sourceTree = "<group>"; };
+		9A49AADA1E52A7C4006CC400 /* MyStudyPlanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStudyPlanController.h; sourceTree = "<group>"; };
+		9A49AADB1E52A7C4006CC400 /* MyStudyPlanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStudyPlanController.m; sourceTree = "<group>"; };
+		9A49AADD1E52A7D4006CC400 /* MyLiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLiveController.h; sourceTree = "<group>"; };
+		9A49AADE1E52A7D4006CC400 /* MyLiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLiveController.m; sourceTree = "<group>"; };
+		9A49AAE01E52A7E7006CC400 /* MyExerciseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyExerciseController.h; sourceTree = "<group>"; };
+		9A49AAE11E52A7E7006CC400 /* MyExerciseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyExerciseController.m; sourceTree = "<group>"; };
+		9A49AAE31E52A7F7006CC400 /* MyModelExamController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModelExamController.h; sourceTree = "<group>"; };
+		9A49AAE41E52A7F7006CC400 /* MyModelExamController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModelExamController.m; sourceTree = "<group>"; };
+		9A49AAE61E52A804006CC400 /* MyCheckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCheckController.h; sourceTree = "<group>"; };
+		9A49AAE71E52A804006CC400 /* MyCheckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCheckController.m; sourceTree = "<group>"; };
+		9A49AAE91E52A81A006CC400 /* MyBrieflyTeachController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBrieflyTeachController.h; sourceTree = "<group>"; };
+		9A49AAEA1E52A81A006CC400 /* MyBrieflyTeachController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBrieflyTeachController.m; sourceTree = "<group>"; };
 		9A9446B11E519B3700DE0C44 /* ipadTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ipadTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9446B51E519B3700DE0C44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A9446B71E519B3700DE0C44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -129,6 +150,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A49AAD01E52A544006CC400 /* MyHome */ = {
+			isa = PBXGroup;
+			children = (
+				9A49AAD71E52A7B0006CC400 /* MyHomeController.h */,
+				9A49AAD81E52A7B0006CC400 /* MyHomeController.m */,
+			);
+			path = MyHome;
+			sourceTree = "<group>";
+		};
+		9A49AAD11E52A558006CC400 /* MyStudyPlan */ = {
+			isa = PBXGroup;
+			children = (
+				9A49AADA1E52A7C4006CC400 /* MyStudyPlanController.h */,
+				9A49AADB1E52A7C4006CC400 /* MyStudyPlanController.m */,
+			);
+			path = MyStudyPlan;
+			sourceTree = "<group>";
+		};
+		9A49AAD21E52A578006CC400 /* MyLive */ = {
+			isa = PBXGroup;
+			children = (
+				9A49AADD1E52A7D4006CC400 /* MyLiveController.h */,
+				9A49AADE1E52A7D4006CC400 /* MyLiveController.m */,
+			);
+			path = MyLive;
+			sourceTree = "<group>";
+		};
+		9A49AAD31E52A589006CC400 /* MyExercise */ = {
+			isa = PBXGroup;
+			children = (
+				9A49AAE01E52A7E7006CC400 /* MyExerciseController.h */,
+				9A49AAE11E52A7E7006CC400 /* MyExerciseController.m */,
+			);
+			path = MyExercise;
+			sourceTree = "<group>";
+		};
+		9A49AAD41E52A650006CC400 /* MyModelExam */ = {
+			isa = PBXGroup;
+			children = (
+				9A49AAE31E52A7F7006CC400 /* MyModelExamController.h */,
+				9A49AAE41E52A7F7006CC400 /* MyModelExamController.m */,
+			);
+			path = MyModelExam;
+			sourceTree = "<group>";
+		};
+		9A49AAD51E52A678006CC400 /* MyCheck */ = {
+			isa = PBXGroup;
+			children = (
+				9A49AAE61E52A804006CC400 /* MyCheckController.h */,
+				9A49AAE71E52A804006CC400 /* MyCheckController.m */,
+			);
+			path = MyCheck;
+			sourceTree = "<group>";
+		};
+		9A49AAD61E52A6A1006CC400 /* MyBrieflyTeach */ = {
+			isa = PBXGroup;
+			children = (
+				9A49AAE91E52A81A006CC400 /* MyBrieflyTeachController.h */,
+				9A49AAEA1E52A81A006CC400 /* MyBrieflyTeachController.m */,
+			);
+			path = MyBrieflyTeach;
+			sourceTree = "<group>";
+		};
 		9A9446A81E519B3700DE0C44 = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +345,13 @@
 		9A94471B1E519E2A00DE0C44 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9A49AAD61E52A6A1006CC400 /* MyBrieflyTeach */,
+				9A49AAD51E52A678006CC400 /* MyCheck */,
+				9A49AAD41E52A650006CC400 /* MyModelExam */,
+				9A49AAD31E52A589006CC400 /* MyExercise */,
+				9A49AAD21E52A578006CC400 /* MyLive */,
+				9A49AAD11E52A558006CC400 /* MyStudyPlan */,
+				9A49AAD01E52A544006CC400 /* MyHome */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -427,14 +518,21 @@
 			files = (
 				9A9447111E519E1700DE0C44 /* MASConstraint.m in Sources */,
 				9A9447141E519E1700DE0C44 /* MASViewAttribute.m in Sources */,
+				9A49AADF1E52A7D4006CC400 /* MyLiveController.m in Sources */,
 				9A9447191E519E1700DE0C44 /* ViewController+MASAdditions.m in Sources */,
 				9A9447161E519E1700DE0C44 /* NSArray+MASAdditions.m in Sources */,
+				9A49AADC1E52A7C4006CC400 /* MyStudyPlanController.m in Sources */,
 				9A9446BC1E519B3700DE0C44 /* ViewController.m in Sources */,
 				9A9447151E519E1700DE0C44 /* MASViewConstraint.m in Sources */,
 				9A9447131E519E1700DE0C44 /* MASLayoutConstraint.m in Sources */,
+				9A49AAD91E52A7B0006CC400 /* MyHomeController.m in Sources */,
 				9A9446B91E519B3700DE0C44 /* AppDelegate.m in Sources */,
 				9A9446B61E519B3700DE0C44 /* main.m in Sources */,
 				9A9447181E519E1700DE0C44 /* View+MASAdditions.m in Sources */,
+				9A49AAE21E52A7E7006CC400 /* MyExerciseController.m in Sources */,
+				9A49AAE81E52A804006CC400 /* MyCheckController.m in Sources */,
+				9A49AAE51E52A7F7006CC400 /* MyModelExamController.m in Sources */,
+				9A49AAEB1E52A81A006CC400 /* MyBrieflyTeachController.m in Sources */,
 				9A9447101E519E1700DE0C44 /* MASCompositeConstraint.m in Sources */,
 				9A94471A1E519E1700DE0C44 /* README.md in Sources */,
 				9A9447171E519E1700DE0C44 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
@@ -682,6 +780,7 @@
 				9A9446E31E519B3700DE0C44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A9446E41E519B3700DE0C44 /* Build configuration list for PBXNativeTarget "ipadTestTests" */ = {
 			isa = XCConfigurationList;
@@ -690,6 +789,7 @@
 				9A9446E61E519B3700DE0C44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A9446E71E519B3700DE0C44 /* Build configuration list for PBXNativeTarget "ipadTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -698,6 +798,7 @@
 				9A9446E91E519B3700DE0C44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
