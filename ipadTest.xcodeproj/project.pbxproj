@@ -14,6 +14,7 @@
 		9A49AAE51E52A7F7006CC400 /* MyModelExamController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A49AAE41E52A7F7006CC400 /* MyModelExamController.m */; };
 		9A49AAE81E52A804006CC400 /* MyCheckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A49AAE71E52A804006CC400 /* MyCheckController.m */; };
 		9A49AAEB1E52A81A006CC400 /* MyBrieflyTeachController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A49AAEA1E52A81A006CC400 /* MyBrieflyTeachController.m */; };
+		9A49AAF11E52E330006CC400 /* HeaderSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A49AAF01E52E330006CC400 /* HeaderSelectView.m */; };
 		9A9446B61E519B3700DE0C44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9446B51E519B3700DE0C44 /* main.m */; };
 		9A9446B91E519B3700DE0C44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9446B81E519B3700DE0C44 /* AppDelegate.m */; };
 		9A9446BC1E519B3700DE0C44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9446BB1E519B3700DE0C44 /* ViewController.m */; };
@@ -72,6 +73,8 @@
 		9A49AAE71E52A804006CC400 /* MyCheckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCheckController.m; sourceTree = "<group>"; };
 		9A49AAE91E52A81A006CC400 /* MyBrieflyTeachController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBrieflyTeachController.h; sourceTree = "<group>"; };
 		9A49AAEA1E52A81A006CC400 /* MyBrieflyTeachController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBrieflyTeachController.m; sourceTree = "<group>"; };
+		9A49AAEF1E52E330006CC400 /* HeaderSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderSelectView.h; sourceTree = "<group>"; };
+		9A49AAF01E52E330006CC400 /* HeaderSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderSelectView.m; sourceTree = "<group>"; };
 		9A9446B11E519B3700DE0C44 /* ipadTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ipadTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9446B51E519B3700DE0C44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A9446B71E519B3700DE0C44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -284,6 +287,8 @@
 		9A9446EA1E519CED00DE0C44 /* ReusableView */ = {
 			isa = PBXGroup;
 			children = (
+				9A49AAEF1E52E330006CC400 /* HeaderSelectView.h */,
+				9A49AAF01E52E330006CC400 /* HeaderSelectView.m */,
 				9A9446EB1E519D5300DE0C44 /* LeftRootView.h */,
 				9A9446EC1E519D5300DE0C44 /* LeftRootView.m */,
 				9A9446EE1E519D7A00DE0C44 /* UserTopView.h */,
@@ -523,6 +528,7 @@
 				9A9447161E519E1700DE0C44 /* NSArray+MASAdditions.m in Sources */,
 				9A49AADC1E52A7C4006CC400 /* MyStudyPlanController.m in Sources */,
 				9A9446BC1E519B3700DE0C44 /* ViewController.m in Sources */,
+				9A49AAF11E52E330006CC400 /* HeaderSelectView.m in Sources */,
 				9A9447151E519E1700DE0C44 /* MASViewConstraint.m in Sources */,
 				9A9447131E519E1700DE0C44 /* MASLayoutConstraint.m in Sources */,
 				9A49AAD91E52A7B0006CC400 /* MyHomeController.m in Sources */,
