@@ -34,6 +34,7 @@ _Pragma("clang diagnostic push") \
 _Pragma("clang diagnostic ignored \"-Wshadow\"") \
 __strong __typeof__(va) va = metamacro_concat(va, _weak_);\
 _Pragma("clang diagnostic pop")
+
 #define metamacro_concat(A, B) A ## B
 
 

@@ -58,6 +58,7 @@
     
   }];
   
+  
   NSArray * titleArray = @[
                       @"我的首页",
                       @"我的学习计划",
@@ -153,7 +154,6 @@
 - (NSArray *)viewsArray {
   
   if (_viewsArray == nil) {
-    
     
     MyHomeController * homeVC = [MyHomeController new];
     MyStudyPlanController * spVC = [MyStudyPlanController new];

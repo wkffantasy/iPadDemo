@@ -38,11 +38,16 @@
                            @"未开始(1)",
                            @"已过期(54)",
                            ];
-  @weakify(self);
+//  @weakify(self);
+  __weak typeof(self) weakSelf = self;
+
   HeaderSelectView * selectView = [[HeaderSelectView alloc]initWithTitleArray:titleArray andSeletedColor:RGBCOLOR(74, 153, 255) andNormalColor:RGBCOLOR(134, 134, 134) andClickBlock:^(int tag) {
     
-    @strongify(self);
-    [self clickSelectViewBlock:tag];
+    NSLog(@"self == %@",self);
+//    @strongify(self);
+//    NSLog(@"self == %@",self);
+    
+    [weakSelf clickSelectViewBlock:tag];
     
   }];
 //  selectView.backgroundColor = [UIColor redColor];
