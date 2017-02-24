@@ -28,7 +28,29 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
   
-  self.view.backgroundColor = RandomColor;
+  NSURL *jsCodeLocation;
+#ifdef DEBUG
+//  jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
+  NSString * strUrl = @"http://localHost:8081/index.ios.bundle?platform=ios&dev=true";
+  jsCodeLocation = [NSURL URLWithString:strUrl];
+#else
+  jsCodeLocation = [CodePush bundleURL];
+#endif
+  
+  NSArray *imageList = @[@"http://foo.com/bar1.png",
+                         @"http://foo.com/bar2.png"];
+  
+  NSDictionary *props = @{@"images" : imageList};
+
+  RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
+                                                      moduleName:@"ipadTest"
+                                               initialProperties:nil
+                                                   launchOptions:props];
+  
+  rootView.backgroundColor = RandomColor;
+  rootView.frame = CGRectMake(0, 0, 100, 100);
+  [self.view addSubview:rootView];
+  
   
 }
 

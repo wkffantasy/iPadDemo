@@ -39,6 +39,7 @@
 		9A9447191E519E1700DE0C44 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A94470D1E519E1700DE0C44 /* ViewController+MASAdditions.m */; };
 		9A94471A1E519E1700DE0C44 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9A94470E1E519E1700DE0C44 /* README.md */; };
 		9A9447221E51A39B00DE0C44 /* UIView+WKFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9447211E51A39B00DE0C44 /* UIView+WKFFrame.m */; };
+		ADE51E13485F4975CE3A2739 /* libPods-ipadTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F157231CC0AD0AFBE6DB3DA8 /* libPods-ipadTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36CB45E2E4F79B3ED4FFCDFC /* Pods-ipadTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipadTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ipadTest/Pods-ipadTest.release.xcconfig"; sourceTree = "<group>"; };
 		9A49AAD71E52A7B0006CC400 /* MyHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHomeController.h; sourceTree = "<group>"; };
 		9A49AAD81E52A7B0006CC400 /* MyHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHomeController.m; sourceTree = "<group>"; };
 		9A49AADA1E52A7C4006CC400 /* MyStudyPlanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStudyPlanController.h; sourceTree = "<group>"; };
@@ -126,6 +128,8 @@
 		9A94471D1E51A2A300DE0C44 /* ipadTest-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ipadTest-PrefixHeader.pch"; sourceTree = "<group>"; };
 		9A9447201E51A39B00DE0C44 /* UIView+WKFFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WKFFrame.h"; sourceTree = "<group>"; };
 		9A9447211E51A39B00DE0C44 /* UIView+WKFFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WKFFrame.m"; sourceTree = "<group>"; };
+		C637D6024189C342D436CC0F /* Pods-ipadTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipadTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ipadTest/Pods-ipadTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F157231CC0AD0AFBE6DB3DA8 /* libPods-ipadTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ipadTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE51E13485F4975CE3A2739 /* libPods-ipadTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +158,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AD79B8E4B142A144292B6B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C637D6024189C342D436CC0F /* Pods-ipadTest.debug.xcconfig */,
+				36CB45E2E4F79B3ED4FFCDFC /* Pods-ipadTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		67EB78FAC5E24BD6CEF2FEA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F157231CC0AD0AFBE6DB3DA8 /* libPods-ipadTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9A49AAD01E52A544006CC400 /* MyHome */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,13 +238,23 @@
 			path = MyBrieflyTeach;
 			sourceTree = "<group>";
 		};
+		9A73498B1E6027AB00AC2E1D /* ReactComponent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ReactComponent;
+			sourceTree = "<group>";
+		};
 		9A9446A81E519B3700DE0C44 = {
 			isa = PBXGroup;
 			children = (
+				9A73498B1E6027AB00AC2E1D /* ReactComponent */,
 				9A9446B31E519B3700DE0C44 /* ipadTest */,
 				9A9446D01E519B3700DE0C44 /* ipadTestTests */,
 				9A9446DB1E519B3700DE0C44 /* ipadTestUITests */,
 				9A9446B21E519B3700DE0C44 /* Products */,
+				2AD79B8E4B142A144292B6B5 /* Pods */,
+				67EB78FAC5E24BD6CEF2FEA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -393,9 +425,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A9446E11E519B3700DE0C44 /* Build configuration list for PBXNativeTarget "ipadTest" */;
 			buildPhases = (
+				6DE88158DFF019EE3FD700C3 /* [CP] Check Pods Manifest.lock */,
 				9A9446AD1E519B3700DE0C44 /* Sources */,
 				9A9446AE1E519B3700DE0C44 /* Frameworks */,
 				9A9446AF1E519B3700DE0C44 /* Resources */,
+				00FF97AF0235DF18AC44EA93 /* [CP] Embed Pods Frameworks */,
+				B1A2357AA707128CDBED03D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -515,6 +550,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00FF97AF0235DF18AC44EA93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ipadTest/Pods-ipadTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DE88158DFF019EE3FD700C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1A2357AA707128CDBED03D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ipadTest/Pods-ipadTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A9446AD1E519B3700DE0C44 /* Sources */ = {
@@ -697,10 +780,12 @@
 		};
 		9A9446E21E519B3700DE0C44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C637D6024189C342D436CC0F /* Pods-ipadTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZZ9329T9X9;
 				INFOPLIST_FILE = ipadTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--fantasy--.ipadTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -710,10 +795,12 @@
 		};
 		9A9446E31E519B3700DE0C44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36CB45E2E4F79B3ED4FFCDFC /* Pods-ipadTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZZ9329T9X9;
 				INFOPLIST_FILE = ipadTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--fantasy--.ipadTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
