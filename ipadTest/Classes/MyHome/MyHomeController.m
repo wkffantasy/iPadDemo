@@ -12,6 +12,10 @@
 
 
 //lib
+#import <React/RCTBundleURLProvider.h>
+#import <React/RCTRootView.h>
+
+
 #import "Masonry.h"
 
 @interface MyHomeController ()
