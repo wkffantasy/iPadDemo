@@ -72,6 +72,7 @@
   NSAssert(self.titlesArray.count == self.viewsArray.count, @"");
   _currentTag = 0;
   @weakify(self);
+  //fixme: list
   LeftRootView * leftView = [[LeftRootView alloc]initWithTitlesArray:titleArray andClickEvent:^(NSInteger tag) {
     
     @strongify(self);
@@ -155,6 +156,7 @@
   
   if (_viewsArray == nil) {
     
+    // fixme :my
     MyHomeController * homeVC = [MyHomeController new];
     MyStudyPlanController * spVC = [MyStudyPlanController new];
     MyLiveController * mlVC = [MyLiveController new];
@@ -163,6 +165,7 @@
     MyCheckController * mccVC = [MyCheckController new];
     MyBrieflyTeachController *mbtVC = [MyBrieflyTeachController new];
     
+    //add child controller
     _viewsArray = @[
                     homeVC.view,
                     spVC.view,

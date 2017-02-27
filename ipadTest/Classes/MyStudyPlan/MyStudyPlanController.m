@@ -41,6 +41,7 @@
 //  @weakify(self);
   __weak typeof(self) weakSelf = self;
 
+  //fixme:tabSelect
   HeaderSelectView * selectView = [[HeaderSelectView alloc]initWithTitleArray:titleArray andSeletedColor:RGBCOLOR(74, 153, 255) andNormalColor:RGBCOLOR(134, 134, 134) andClickBlock:^(int tag) {
     
     NSLog(@"self == %@",self);

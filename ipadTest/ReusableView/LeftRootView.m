@@ -46,6 +46,7 @@
 }
 - (void)setupView {
   
+  //fixme: 小于
   for (int i=0; i<self.titleArray.count; i++) {
     
     NSString * buttonTitle = self.titleArray[i];
